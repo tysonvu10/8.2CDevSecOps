@@ -63,7 +63,7 @@ pipeline {
                             <p><b>Status:</b> ${currentBuild.currentResult}</p>
                             <p>The security scan log is attached.</p>
                         """,
-                        to: 'your_email@gmail.com',
+                        to: 'thanhkoco102@gmail.com',
                         mimeType: 'text/html',
                         attachLog: true
                     )
