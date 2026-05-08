@@ -33,7 +33,7 @@ pipeline {
                             <p><b>Status:</b> ${currentBuild.currentResult}</p>
                             <p>Please find the build log attached.</p>
                         """,
-                        to: 'your_email@gmail.com',
+                        to: 'thanhkoco102@gmail.com',
                         mimeType: 'text/html',
                         attachLog: true
                     )
